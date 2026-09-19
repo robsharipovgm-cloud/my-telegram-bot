@@ -1,10 +1,10 @@
-import telebot
+import 'telebot'
 import random
 import os
 import threading
 from http.server import BaseHTTPRequestHandler, HTTPServer
 
-bot = telebot.TeleBot(os.environ.get('BOT_TOKEN'))
+bot = 'telebot.TeleBot(os.environ.get('BOT_TOKEN'))
 
 @bot.message_handler(commands=['yesno'])
 def yes_no(message):
