@@ -19,7 +19,7 @@ def run_web_server():
     port = int(os.environ.get('PORT', 8080))
 server = HTTPServer(('0.0.0.0', port), WebServer)
 server.serve_forever()
-if __name__ = "__main__":
+if __name__ == "__main__":
     bot.remove_webhook()
     threading.Thread(target=run_web_server).start()
     bot.infinity_polling()
