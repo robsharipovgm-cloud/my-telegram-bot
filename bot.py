@@ -1,4 +1,4 @@
-import <'telebot'>
+import telebot
 import random
 import os
 import threading
