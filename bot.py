@@ -22,7 +22,8 @@ class WebServer(BaseHTTPRequestHandler):
 
 def run_web_server():
     port = int(os.environ.get('PORT', 8080))
-    server = HTTPServer(('0.0.0.0
+        server = HTTPServer(('0.0.0.0',
+                             port), WebServer)
 ', port), WebServer)
     server.serve_forever()
 
