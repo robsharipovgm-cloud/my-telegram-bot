@@ -29,7 +29,7 @@ class WebServer(BaseHTTPRequestHandler):
 def run_web_server():
     port_text = os.environ.get('PORT', '8080')
     port = int(port_text)
-    host = '0.0.0.0
+    host = '0.0.0.0'
 '
     addr = host, port
     server = HTTPServer(addr, WebServer)
