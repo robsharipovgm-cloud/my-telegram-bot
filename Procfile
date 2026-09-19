@@ -1,1 +1,1 @@
-worker : pyTelegramBotAPI 
+worker: pyTelegramBotAPI 
