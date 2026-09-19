@@ -2,7 +2,7 @@ import telebot
 import random
 import os
 import threading
-from http.server import 
+from http.server import BaseHTTPRequestHandler, HTTPServer
 BaseHTTPRequestHandler, HTTPServer
 
 bot =
