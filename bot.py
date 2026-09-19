@@ -14,7 +14,7 @@ def yes_no(message):
 def echo(message):
     bot.reply_to(message, "Напиши /yesno")
 
-# Это маленький сайт, чтобы Render видел, что бот работает
+# Это маленький сайт, чтобы сервер видел, что бот работает
 class WebServer(BaseHTTPRequestHandler):
     def do_GET(self):
         self.send_response(200)
